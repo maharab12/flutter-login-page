@@ -1,0 +1,88 @@
+{
+  "products":
+  [
+  {
+    "id": 1,
+    "name": "Classic Leather Jacket",
+    "dec": "Timeless and stylish leather jacket. Perfect for any occasion.",
+    "price": "$199.99",
+    "colors": "Black, Brown",
+    "image": "https://www.monaonline.com/files/thumbs/files/images/products/thumbs_750/9112701_750_1120px.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Wireless Bluetooth Headphones",
+    "dec": "High-fidelity Bluetooth headphones. Enjoy wireless freedom.",
+    "price": "$79.99",
+    "colors": "Black, White, Red",
+    "image": "https://m.media-amazon.com/images/I/51S9sEt-pTS._AC_SL1000_.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Organic Cotton T-Shirt",
+    "dec": "Comfortable and eco-friendly organic cotton t-shirt.",
+    "price": "$24.99",
+    "colors": "White, Gray, Navy Blue",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgBLdqn2NTqcO3OHGZxDHcZEIzKOlXhBRYx8-8_4M&s"
+  },
+  {
+    "id": 4,
+    "name": "Fitness Tracker Watch",
+    "dec": "Sleek fitness tracker watch. Monitors heart rate and activity.",
+    "price": "$49.99",
+    "colors": "Black, Blue, Purple",
+    "image": "https://cdn.mos.cms.futurecdn.net/4E9ot6To2nDiaNcUGvqouW-970-80.jpg.webp"
+  },
+  {
+    "id": 5,
+    "name": "Ceramic Coffee Mug",
+    "dec": "Beautifully designed ceramic coffee mug. Microwave and dishwasher safe.",
+    "price": "$12.99",
+    "colors": "White, Black, Blue",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-vNNyDwRfZ_j31ybke1RgJN81Sz_PBnjaSw1aTWERiA&s"
+  },
+  {
+    "id": 6,
+    "name": "Waterproof Backpack",
+    "dec": "Durable and waterproof backpack. Perfect for outdoor adventures.",
+    "price": "$39.99",
+    "colors": "Black, Gray, Blue",
+    "image": "https://cdn.shopify.com/s/files/1/0564/9747/1652/products/Waterproof-Backpack-30L-Bags-Red-Original_610x780_crop_center.jpg?v=1652192536"
+  },
+  {
+    "id": 7,
+    "name": "Stainless Steel Watch",
+    "dec": "Classic stainless steel wristwatch. Elegant and water-resistant.",
+    "price": "$89.99",
+    "colors": "Silver, Rose Gold, Black",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/hlh030123feastyle-006-64343b5ed228d.jpg?crop=1.00xw:0.333xh;0,0.358xh&resize=1200:*"
+  },
+  {
+    "id": 8,
+    "name": "Portable Bluetooth Speaker",
+    "dec": "Portable Bluetooth speaker for on-the-go music enjoyment.",
+    "price": "$29.99",
+    "colors": "Black, Red, Blue",
+    "image": "https://static-01.daraz.com.bd/p/c29a98b32efc2aca4103e3ef28f6fbd6.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Professional Chef Knife Set",
+    "dec": "High-quality chef knife set for kitchen enthusiasts.",
+    "price": "$79.99",
+    "colors": "Silver, Black",
+    "image": "https://cdn.shopify.com/s/files/1/0511/4268/8945/products/SenkenKnivesBlueHandleKitchenKnivesFullSet_800x.jpg?v=1627524042"
+  },
+  {
+    "id": 10,
+    "name": "Floral Print Sundress",
+    "dec": "Beautiful floral print sundress. Perfect for summer days.",
+    "price": "$34.99",
+    "colors": "Pink, Blue, Yellow",
+    "image": "https://www.lulus.com/images/product/xlarge/3200150_607722.jpg?w=375&hdpi=1"
+  }
+]
+}
+
+
+
