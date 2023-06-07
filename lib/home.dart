@@ -46,15 +46,32 @@ class _Home_pageState extends State<Home_page> {
       body: Padding(
         padding: const EdgeInsets.all(30.0),
         child: (CatalogModel.items.isNotEmpty)
+//2 item will come in every coloum
+            ? GridView.builder(
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2,//for how many product in a row
+              mainAxisSpacing: 10,//space of two product
+              crossAxisSpacing: 13,
+        ),
 
-            ? ListView.builder(
-          itemCount: CatalogModel.items.length,
-          itemBuilder: (context, index) {
-            return ItemWidget(
-              item: CatalogModel.items[index],
-            );
-          },
-        )
+            itemBuilder: (context,index){
+              final item = CatalogModel.items[index];
+              return Card(
+                clipBehavior: Clip.antiAlias,
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10),
+                ),
+                  child: GridTile(
+                    header: Container(child: Text(item.name
+                    ,style: TextStyle(color: Colors.white ),),//color of product name
+                    padding: EdgeInsets.all(2),
+                    decoration: BoxDecoration(
+                      color: Colors.deepOrangeAccent //color of head text
+                    ),),
+                      child: Image.network(item.image),
+                  footer: Text(item.price),));
+    },
+
+            itemCount: CatalogModel.items.length)
             : Center(
           child: CircularProgressIndicator(),
         ),
