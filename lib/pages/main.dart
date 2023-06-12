@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:test_1/Login.dart';
-import 'package:test_1/home.dart';
+import 'package:test_1/pages/Login.dart';
+import 'package:test_1/pages/home.dart';
 import 'package:test_1/utils/routs.dart';
 import 'package:test_1/widgets/thekmes.dart';
+
+import 'card_page.dart';
 
 
 void main(){
@@ -26,6 +28,7 @@ class Myapp extends StatelessWidget {
         "/": (context) => const Home_page(),
         MyRouts.HomeRouts: (context) => const Home_page(),
         MyRouts.LoginRouts: (context) =>  Login(),
+        MyRouts.cardRoute: (context) => CartPage(),
 
       },
 
